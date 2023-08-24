@@ -112,6 +112,13 @@ footer .socials {
     max-width: 700px;
 }
 
+.about{
+    color: bisque;
+}
+.about h1{
+    text-align: center;
+    color: darkblue;
+}   
 .moto {
     display: flex;
     align-items: center;
