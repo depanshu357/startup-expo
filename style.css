@@ -26,3 +26,22 @@ footer .socials {
     margin: auto;
     max-width: 700px;
 }
+
+.moto {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    color: white;
+    font-size: x-large;
+    background: radial-gradient(130.47% 105.22% at 28.98% 0.00%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.10) 100%);
+
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 2px solid #6700ff;
+    padding: 20px;
+    margin: 50px 0;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
