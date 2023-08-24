@@ -232,3 +232,77 @@ background: transparent;
 
 
 }
+
+.who{
+    background: linear-gradient(180deg, #0B75D3 27.40%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+text-align: center;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.list{
+    
+
+font-family: Open Sans;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+padding-left: 20%;
+
+
+}
+
+.list-item{
+    background: linear-gradient(180deg, #69DBFF 0%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+.slabs{
+    background: linear-gradient(180deg, #0B75D3 27.40%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+text-align: center;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+
+border: 2px solid #0B75D3;
+margin: 5% 30%;
+
+}
+
+
+.slabdetails{
+    display: flex;
+    
+}
+
+.platinum{
+    background-image: url(./Images/Group\ 2418.png);
+
+    background: linear-gradient(180deg, #0B75D3 0%, #FFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
