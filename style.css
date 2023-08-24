@@ -1,0 +1,57 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.landing-page{
+    background-image: url(./Images/Expo\ coming\ soon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} 
+
+.header{
+    position: relative;
+}
+
+@media screen and (max-width: 768px){
+    .iitk-logo{
+        position: absolute;
+        width: 4em;
+        margin: 0.5em;  
+        left: 0%;
+        top: 0%;  
+    }
+} 
+
+@media screen and (min-width: 768px){
+    .iitk-logo{
+        position: absolute;
+        width: 7em;
+        margin: 3em;  
+        left: 0%;
+        top: 0%;  
+    }
+} 
+
+@media screen and (max-width: 768px){
+    .esummit-logo{
+        width: 4em;
+        margin: 0.5em;  
+        position: absolute; 
+        right: 0%;
+        top: 0%;  
+    }
+}
+
+@media screen and (min-width: 768px){
+    .esummit-logo{
+        position: absolute;
+        width: 7em;
+        margin: 3em;   
+        right: 0%;
+        top: 0%; 
+    }
+}
