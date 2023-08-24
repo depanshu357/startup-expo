@@ -55,3 +55,142 @@ body,html{
         top: 0%; 
     }
 }
+.about-us{
+
+}
+
+
+.about{
+    background: linear-gradient(180deg, #0B75D3 27.40%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+
+/* display: flex;
+width: 367px;
+height: 50px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0; */
+}
+
+.about-text{
+    color: #8d3838; /*change it to #FFF*/
+text-align: center;
+font-family: Quattrocento Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 180.5%; /* 23.465px */
+text-transform: uppercase;
+
+/* display: flex;
+width: 490px;
+height: 86px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0; */
+}
+
+.why{
+    background: linear-gradient(180deg, #0B75D3 27.40%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.expo-features{
+    display: flex;
+}
+
+
+.stalls{
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 40%;
+
+    background: linear-gradient(180deg, #1381E2 0%, #FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: justify;
+/* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+font-family: Quattrocento Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 180.5%; /* 21.66px */
+text-transform: capitalize;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.non-landing{
+    position: relative;
+    background-image: url("./Images/Background.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* .socials{
+    display: flex;
+    justify-content: space-between;
+} */
+footer .socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    align-content: center;
+    margin: auto;
+    max-width: 700px;
+}
+
+.about{
+    color: bisque;
+}
+.about h1{
+    text-align: center;
+    color: darkblue;
+}   
+.moto {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    color: white;
+    font-size: x-large;
+    background: radial-gradient(130.47% 105.22% at 28.98% 0.00%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.10) 100%);
+
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 2px solid #6700ff;
+    padding: 20px;
+    margin: 50px 0;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
