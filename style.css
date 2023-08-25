@@ -1,6 +1,4 @@
-.about-us{
 
-}
 
 
 .about{
@@ -152,6 +150,8 @@ text-transform: capitalize;
 *{
     margin: 0;
     padding: 0;
+    font-family: ;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .non-landing{
@@ -164,11 +164,16 @@ text-transform: capitalize;
 }
 
 
-/* .socials{
-    display: flex;
-    justify-content: space-between;
-} */
-footer .socials {
+footer {
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    position: relative;
+    overflow: hidden;
+}
+
+.socials {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -192,7 +197,6 @@ footer .socials {
     color: white;
     font-size: x-large;
     background: radial-gradient(130.47% 105.22% at 28.98% 0.00%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.10) 100%);
-
     box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.20);
     backdrop-filter: blur(20px);
     border-radius: 20px;
@@ -202,107 +206,49 @@ footer .socials {
     align-content: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-
-.form{
-    border-radius: 20px;
-background: rgba(217, 217, 217, 0.11);
-box-shadow: 0px 4px 4px 0px rgba(20, 134, 228, 0.54), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-margin: 5% 40% 5% 40%;
-
-display: flex;
-justify-content: center;
-}
-
-.form-button{
-    border: none;
-    color: #1381E2;
-text-align: center;
-text-shadow: 0px 1px 4px rgba(0, 117, 255, 0.46);
-font-family: Open Sans;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-
-background: transparent;
-
-
-}
-
-.who{
-    background: linear-gradient(180deg, #0B75D3 27.40%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-text-align: center;
-font-family: Poppins;
-font-size: 28px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-}
-
-.list{
-    
-
-font-family: Open Sans;
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
-padding-left: 20%;
-
-
-}
-
-.list-item{
-    background: linear-gradient(180deg, #69DBFF 0%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-
-}
-
-.slabs{
-    background: linear-gradient(180deg, #0B75D3 27.40%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-text-align: center;
-font-family: Poppins;
-font-size: 28px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-
-border: 2px solid #0B75D3;
-margin: 5% 30%;
-
-}
-
-
-.slabdetails{
+    height: 50px;
+    max-width: 400px;
     display: flex;
-    
+    justify-content: space-around;
 }
 
-.platinum{
-    background-image: url(./Images/Group\ 2418.png);
+.moto-expo{
+    padding-right: 45px;
+    padding-left: 10px;
+    transform: translateY(10px);
+}
 
-    background: linear-gradient(180deg, #0B75D3 0%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.moto-ecell{
+    padding-left: 45px;
+    padding-right: 10px;
+    height: 60px;
+}
 
+.icons{
+    height: 30px;
+    width: 30px;
+}
 
+.slogan{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.connect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.connect-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.address{
+    height: 25vh;
 }
