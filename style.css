@@ -150,7 +150,6 @@ text-transform: capitalize;
 *{
     margin: 0;
     padding: 0;
-    font-family: ;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -160,11 +159,11 @@ text-transform: capitalize;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
 }
 
 
-footer {
+.footer {
     padding: 50px 0;
     color: white;
     text-align: center;
@@ -225,8 +224,8 @@ footer {
 }
 
 .icons{
-    height: 30px;
-    width: 30px;
+    height: 2.4rem;
+    width: 2.4rem;
 }
 
 .slogan{
@@ -242,6 +241,10 @@ footer {
     margin: 50px 0px;
 }
 
+.connect-components{
+    margin-top: 5px;
+}
+
 .connect-icon{
     display: flex;
     align-items: center;
@@ -249,6 +252,49 @@ footer {
     color: white;
 }
 
+.connect-icons{
+    margin: 0px 10px;
+    height: 35px;
+    width: 35px;
+}
+
 .address{
     height: 25vh;
+    justify-content: baseline;
+}
+
+@media only screen and (max-width: 450px){
+    .moto {
+        display: flex;
+        align-items: center;
+        width: max-content;
+        color: white;
+        font-size: x-large;
+        background: radial-gradient(130.47% 105.22% at 28.98% 0.00%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.10) 100%);
+        box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.20);
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+        border: 2px solid #6700ff;
+        padding: 20px;
+        margin: 50px 0;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        max-width: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .moto-expo{
+        padding-right: 22px;
+        padding-left: 10px;
+        transform: translateY(10px);
+    }
+    
+    .moto-ecell{
+        padding-left: 22px;
+        padding-right: 10px;
+        height: 60px;
+    }
 }
