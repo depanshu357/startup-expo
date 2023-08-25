@@ -445,4 +445,19 @@ background-clip: text;
         margin-right: 10px;
         height: 60px;
     }
+
+    .icons{
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .connect-icons{
+        margin: 0px 10px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .footer-font-size{
+        font-size: 20px;
+    }
 }
