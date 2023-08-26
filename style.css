@@ -172,6 +172,10 @@ flex-shrink: 0; */
     
 }
 
+.feature {
+    flex-basis: 33.3333333%;
+}
+
 .feature p{
     background: linear-gradient(180deg, #167eda 0%, #FFF 100%);
     background-clip: text;
@@ -186,6 +190,8 @@ background: rgba(217, 217, 217, 0.11);
 box-shadow: 0px 4px 4px 0px rgba(20, 134, 228, 0.54), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 margin: 5% 40% 5% 40%;
+
+padding: 10px 0px;
 
 display: flex;
 justify-content: center;
