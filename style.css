@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 body,html{
     margin: 0;
     padding: 0;
@@ -305,86 +308,104 @@ line-height: normal;
 text-transform: uppercase;
 }
 
-.list{
-    
+.audience-heading{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
-font-family: Open Sans;
-font-size: 21px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.audience-specify{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
-padding-left: 20%;
+.audience-list_items{
+    color: white;
+    font-size: 20px;
+}
 
+#slab{
+    margin-top: 50px;
+}
 
+.list{  
+    font-family: Open Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20%;
 }
 
 .list-item{
-    background: linear-gradient(180deg, #69DBFF 0%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-
+    color: white;
+    list-style: none;
 }
 
-.slabs{
-    background: linear-gradient(180deg, #0B75D3 27.40%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-text-align: center;
-font-family: Poppins;
-font-size: 28px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-
-border: 2px solid #0B75D3;
-margin: 5% 30%;
-
+.slab-list-tick_image{
+    margin-right: 4px;
 }
 
+.slab-list{
+    padding: 40px;
+    padding-top: 10px;
+}
 
-.slabdetails{
+.slab-heading{
+    text-align: center;
+    color: white;
+    margin: 10px 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.slab-elements{
     display: flex;
     justify-content: space-around;
-
-    margin-bottom: 50px;
-    
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.platinum{
-    background-image: url(./Images/Group\ 2418.png);
-background: linear-gradient(180deg, #0B75D3 0%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-/* background-repeat: no-repeat;
+.slab-elements-heading{
+    color: white;
+    text-align: center;
+    /* border-bottom: 2px solid rgba(255, 255, 255, 0.80); */
+}
+.slab-elements-heading::after{
+    content: '';
+    width: 200px;
+    height: 2px;
+    background-color: whitesmoke;
+    display: block;
+    margin: 0 auto;
+}
+
+.slab-platinum{
+    background-image: url(./Images/Slabs_Background.png);
     background-size: cover;
-    padding: 5%; */ 
-
-/* height: 120px; */
+    margin: 10px auto;
+    height: 440px;
 }
 
-.gold{
-    background-image: url(./Images/Group\ 2418.png);
-
-    background: linear-gradient(180deg, #0B75D3 0%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.slab-gold{
+    background-image: url(./Images/Slabs_Background.png);
+    background-size: cover;
+    margin: 10px auto;
+    height: 440px;
 }
 
-.silver{
-    background-image: url(./Images/Group\ 2418.png);
+.slab-silver{
+    background-image: url(./Images/Slabs_Background.png);
+    background-size: cover;
+    margin: 10px auto;
+    height: 440px;
+}
 
-    background: linear-gradient(180deg, #0B75D3 0%, #FFF 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.slab-subslab{
+    margin-top: 90px;
+    z-index: 1;
 }
 
 *{
@@ -403,7 +424,7 @@ background-clip: text;
 }
 
 
-.footer {
+#footer {
     margin: 80px 0px 0px 0px;
     color: white;
     text-align: center;
@@ -466,7 +487,6 @@ background-clip: text;
 
 .footer-icons{
     height: 2.4rem;
-    width: 2.4rem;
 }
 
 .footer-slogan{
@@ -504,7 +524,7 @@ background-clip: text;
     justify-content: baseline;
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 415px){
     .footer-moto {
         display: flex;
         align-items: center;
@@ -533,7 +553,7 @@ background-clip: text;
         transform: translateY(10px);
         height: 55px;
     }
-    
+
     .footer-moto-ecell{
         margin-left: 13px;
         margin-right: 10px;
@@ -542,7 +562,6 @@ background-clip: text;
 
     .footer-icons{
         height: 2rem;
-        width: 2rem;
     }
 
     .footer-connect-icons{
@@ -562,3 +581,4 @@ background-clip: text;
         margin: 25px 0px;
     }
 }
+
