@@ -74,11 +74,6 @@ body,html{
     color: #0029FF;
 }
 
-.about-us{
-
-}
-
-
 .about{
     background: linear-gradient(180deg, #0B75D3 27.40%, #FFF 100%);
     background-clip: text;
@@ -409,7 +404,7 @@ background-clip: text;
 
 
 .footer {
-    margin: 50px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
     color: white;
     text-align: center;
     font-size: x-large;
@@ -417,7 +412,7 @@ background-clip: text;
     overflow: hidden;
 }
 
-.socials {
+.footer-socials {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -434,7 +429,7 @@ background-clip: text;
     text-align: center;
     color: darkblue;
 }    */
-.moto {
+.footer-moto {
     display: flex;
     align-items: center;
     width: max-content;
@@ -456,60 +451,61 @@ background-clip: text;
     justify-content: space-around;
 }
 
-.moto-expo{
+.footer-moto-expo{
     margin-right: 25px;
     margin-left: 10px;
     transform: translateY(13px);
+    height: 60px;
 }
 
-.moto-ecell{
+.footer-moto-ecell{
     margin-left: 25px;
     margin-right: 10px;
     height: 60px;
 }
 
-.icons{
+.footer-icons{
     height: 2.4rem;
     width: 2.4rem;
 }
 
-.slogan{
+.footer-slogan{
     display: flex;
     justify-content: space-around;
 
 }
 
-.connect{
+.footer-connect{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px 0px;
 }
 
-.connect-components{
-    margin-top: 5px;
+.footer-connect-components{
+    margin: 20px 0px;
 }
 
-.connect-icon{
+.footer-connect-icon{
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
 }
 
-.connect-icons{
+.footer-connect-icons{
     margin: 0px 10px;
     height: 35px;
     width: 35px;
 }
 
-.address{
+.footer-address{
     height: 25vh;
     justify-content: baseline;
 }
 
 @media only screen and (max-width: 450px){
-    .moto {
+    .footer-moto {
         display: flex;
         align-items: center;
         width: max-content;
@@ -525,36 +521,44 @@ background-clip: text;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
-        height: 50px;
-        max-width: 300px;
+        height: 40px;
+        max-width: 230px;
         display: flex;
         justify-content: space-around;
     }
 
-    .moto-expo{
-        margin-right: 22px;
+    .footer-moto-expo{
+        margin-right: 13px;
         margin-left: 10px;
         transform: translateY(10px);
+        height: 55px;
     }
     
-    .moto-ecell{
-        margin-left: 22px;
+    .footer-moto-ecell{
+        margin-left: 13px;
         margin-right: 10px;
-        height: 60px;
+        height: 55px;
     }
 
-    .icons{
+    .footer-icons{
         height: 2rem;
         width: 2rem;
     }
 
-    .connect-icons{
-        margin: 0px 10px;
+    .footer-connect-icons{
+        margin: 0px 4px 0px 5px;
         height: 30px;
         width: 30px;
     }
 
     .footer-font-size{
         font-size: 20px;
+    }
+
+    .footer-connect{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 25px 0px;
     }
 }
