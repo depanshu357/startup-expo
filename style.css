@@ -350,6 +350,8 @@ background: transparent;
 }
 
 .form-button{
+    width: 100%;
+    text-align: center;
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -357,17 +359,19 @@ background: transparent;
 }
 
 .form-button:after {
-  content: '»';
+  content: '';
+  background-image: url(./Images/icons8-forward-94.png);
   position: absolute;
-  opacity: 0;  
-  top: 14px;
-  right: -20px;
+  /* opacity: 0;   */
+  top: -2px;
+  right: 0px;
   transition: 0.5s;
 }
 
 .form-button:hover{
   padding-right: 24px;
   padding-left:8px;
+  color: #d4d5d4;
 }
 
 .form-button:hover:after {
@@ -497,7 +501,7 @@ background-clip: text;
     background-image: url("./Images/Background.png");
     background-color: black;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
     height: 100%;
 }
 
