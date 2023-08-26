@@ -55,6 +55,25 @@ body,html{
         top: 0%; 
     }
 }
+
+.esummit-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+}
+
+.startup-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 105px;
+    font-weight: 700;
+    color: #0029FF;
+}
+
 .about-us{
 
 }
