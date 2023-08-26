@@ -504,7 +504,7 @@ background-clip: text;
     justify-content: baseline;
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 300px){
     .footer-moto {
         display: flex;
         align-items: center;
