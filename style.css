@@ -29,8 +29,8 @@ body,html{
 @media screen and (min-width: 768px){
     .iitk-logo{
         position: absolute;
-        width: 7em;
-        margin: 3em;  
+        width: 6em;
+        margin: 2em;  
         left: 0%;
         top: 0%;  
     }
@@ -49,19 +49,23 @@ body,html{
 @media screen and (min-width: 768px){
     .esummit-logo{
         position: absolute;
-        width: 11em;
-        margin: 3em;   
+        width: 9em;
+        margin: 2em;   
         right: 0%;
         top: 0%; 
     }
 }
 
-.esummit-text{
+.esummit-text-box{
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 5vh;
+    top: 12vh;
+}
+
+.esummit-text{
+    width: 40em;
 }
 
 .startup-text{
@@ -71,7 +75,30 @@ body,html{
     font-family: 'Poppins';
     font-size: 105px;
     font-weight: 700;
-    color: #0029FF;
+    background: -webkit-linear-gradient(#0087FF 100%, #00427CBA 73%, #0087FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0.75em 0em 0em 0em;
+}
+
+.expo-landing{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 30em;
+}
+
+.expo-landing-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0em 0em 0em 0em;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 400;
+    letter-spacing: 1em;
 }
 
 .about-us{
