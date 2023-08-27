@@ -5,7 +5,7 @@ body,html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 /* Chrome, Edge and Safari */
 body::-webkit-scrollbar {
@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb:active {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
 } 
 
 .header{
@@ -319,13 +319,15 @@ flex-shrink: 0; */
     }
   }
   
-  @media(max-width:480px) {
+  @media(max-width:560px) {
     #competition {
       padding: 50px 0;
     }
-  
+    .comp-card{
+        max-width: 90%;
+    }
     .comp-row {
-      margin: 20px 30px;
+      /* margin: 20px 30px; */
       grid-template-columns: repeat(1, 1fr);
     }
   }
