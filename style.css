@@ -46,9 +46,6 @@ body::-webkit-scrollbar-thumb:active {
     /* height: 100vh; */
 } 
 
-.header{
-    position: relative;
-}
 
 @media screen and (max-width: 768px){
     .iitk-logo{

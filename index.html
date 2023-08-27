@@ -404,7 +404,7 @@
 
         function reveal() {
             var reveals = document.querySelectorAll(".reveal");
-            console.log("working")
+            // console.log("working")
             for (var i = 0; i < reveals.length; i++) {
                 var windowHeight = window.innerHeight;
                 var elementTop = reveals[i].getBoundingClientRect().top;
@@ -416,6 +416,7 @@
                     reveals[i].classList.remove("active");
                 }
             }
+            
         }
     window.addEventListener("scroll", reveal);
 
@@ -428,15 +429,14 @@
     var targetEls = document.querySelector("#nav-bar").querySelectorAll('li')
     var logoText = document.querySelector('.logo-text')
 
-
     hamMenuIcon.addEventListener("click", () => {
       navBar.classList.toggle("active");
       hamMenuIcon.classList.toggle("fa-times");
       logoText.style.color = "white"
-      header.style.backgroundColor = "black"
+      // header.style.backgroundColor = "black"
       targetEls.forEach((ele) => {
         if (ele.querySelector('a'))
-          ele.querySelector('a').style.color = "yellow";
+          ele.querySelector('a').style.color = "white";
       })
     });
     navLinks.forEach((navLinks) => {
