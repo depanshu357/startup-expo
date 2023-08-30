@@ -1,0 +1,23 @@
+.conclave{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media screen and (max-width:1000px) {
+    .conclave{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.conclave-subsection{
+    padding: 10px;
+}
+.conclave-subsection h1{
+    text-align: center;
+}
+.conclave-heading{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
