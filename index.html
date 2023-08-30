@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="nav.css">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 
@@ -66,7 +66,7 @@
       <img src="./Images/Group 2489.png" alt="E-Summit'23" class="esummit-text">
     </div>
     <div class="startup-text">
-      STARTUP
+      <img src="./Images/STARTUP (1).png" alt="" srcset="">
     </div>
     <div class="expo-landing">
       <img src="./Images/Expo coming soon (1).png" alt="EXPO">
@@ -91,7 +91,6 @@
       </div>
       <div class="why">
         <h1>WHY STARTUP EXPO</h1>
-
       </div>
       <!-- <div class="expo-box">
             <div class="expo-features">
@@ -218,7 +217,9 @@
 
 
     <div class="form">
-      <button class="form-button" href="#">FILL FORM</button>
+      <button class="form-button"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSf3iBcobfmihxDhvJF4L_d_s9Dy1BepIEfH6_w7OAJEYWiqpg/viewform?usp=sf_link">FILL
+        FORM</button>
     </div>
 
     <section id="audience">
@@ -272,6 +273,7 @@
         </div>
 
         <div class="slab-gold">
+          <!-- <img src="./Images/Slabs_Background.png" alt="" srcset=""> -->
           <div class="slab-subslab">
             <h1 class="slab-elements-heading">GOLD STALL</h1>
             <div class="slab-list">
@@ -375,49 +377,49 @@
     crossorigin="anonymous"></script>
   <script>
     const accordionItemHeaders = document.querySelectorAll(
-            ".accordion-item-header"
+      ".accordion-item-header"
+    );
+    accordionItemHeaders.forEach((accordionItemHeader) => {
+      accordionItemHeader.addEventListener("click", (event) => {
+        // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+
+        const currentlyActiveAccordionItemHeader = document.querySelector(
+          ".accordion-item-header.active"
         );
-        accordionItemHeaders.forEach((accordionItemHeader) => {
-            accordionItemHeader.addEventListener("click", (event) => {
-                // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
-
-                const currentlyActiveAccordionItemHeader = document.querySelector(
-                    ".accordion-item-header.active"
-                );
-                if (
-                    currentlyActiveAccordionItemHeader &&
-                    currentlyActiveAccordionItemHeader !== accordionItemHeader
-                ) {
-                    currentlyActiveAccordionItemHeader.classList.toggle("active");
-                    currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
-                }
-
-                accordionItemHeader.classList.toggle("active");
-                const accordionItemBody = accordionItemHeader.nextElementSibling;
-                if (accordionItemHeader.classList.contains("active")) {
-                    accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
-                } else {
-                    accordionItemBody.style.maxHeight = 0;
-                }
-            });
-        });
-
-        function reveal() {
-            var reveals = document.querySelectorAll(".reveal");
-            // console.log("working")
-            for (var i = 0; i < reveals.length; i++) {
-                var windowHeight = window.innerHeight;
-                var elementTop = reveals[i].getBoundingClientRect().top;
-                var elementVisible = 15;
-
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add("active");
-                } else {
-                    reveals[i].classList.remove("active");
-                }
-            }
-            
+        if (
+          currentlyActiveAccordionItemHeader &&
+          currentlyActiveAccordionItemHeader !== accordionItemHeader
+        ) {
+          currentlyActiveAccordionItemHeader.classList.toggle("active");
+          currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
         }
+
+        accordionItemHeader.classList.toggle("active");
+        const accordionItemBody = accordionItemHeader.nextElementSibling;
+        if (accordionItemHeader.classList.contains("active")) {
+          accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+        } else {
+          accordionItemBody.style.maxHeight = 0;
+        }
+      });
+    });
+
+    function reveal() {
+      var reveals = document.querySelectorAll(".reveal");
+      // console.log("working")
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 15;
+
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+
+    }
     window.addEventListener("scroll", reveal);
 
 
