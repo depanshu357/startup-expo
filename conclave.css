@@ -1,0 +1,89 @@
+/* .conclave{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media screen and (max-width:1000px) {
+    .conclave{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.conclave-subsection{
+    padding: 10px;
+}
+.conclave-subsection h1{
+    text-align: center;
+}
+.conclave-heading{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+} */
+
+#conclave{
+    margin: 20px 0px;
+}
+
+.conclave-heading{
+    color: whitesmoke;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.conclave-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.conclave-subcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 225px;
+    height: 40vh;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: radial-gradient(100% 100% at 28.98% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 18px 5px rgb(71, 109, 213);
+    transition: transform 700ms;
+}
+
+.conclave-subcontainer:hover{
+    cursor: pointer;
+    transform: scale(1.1) translateY(-10px);
+}
+
+.conclave-subcontainer strong{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    transition: transform 700ms;
+}
+
+.conclave-subcontainer strong:hover{
+    transform: scale(1.05);
+    color: black;
+}
+
+.conclave-subcontainer p{
+    padding: 0px 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-bottom: 30px;
+    transition: transform 700ms;
+}
+
+.conclave-subcontainer p:hover{
+    transform: scale(1.02);
+}
+
