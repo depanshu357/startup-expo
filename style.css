@@ -6,6 +6,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     /* overflow-x: hidden; */
 }
 
@@ -277,9 +278,9 @@ flex-shrink: 0; */
         height: 45px;
     }
 }
-.about-text div:nth-child(2) iframe{
+.about-text div:nth-child(2) video{
     width: 100%;
-    height: 300px;
+    height: 100%;
 }
 @media screen and (max-width:600px) {
     #about{
@@ -769,7 +770,7 @@ flex-shrink: 0; */
 }
 
 
-#footer {
+.footer {
     margin: 80px 0px 0px 0px;
     color: white;
     text-align: center;
