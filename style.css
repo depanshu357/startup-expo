@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 .landing-page {
-    background-image: url(./Images/Expo\ coming\ soon.png);
+    background-image: url("./Images/expo-coming-soon-65102d93a531e.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
